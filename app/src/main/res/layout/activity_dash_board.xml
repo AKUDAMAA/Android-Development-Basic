@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardActivity">
+
+    <ImageButton
+        android:id="@+id/ibMenu"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_sort_24"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:background="@drawable/latihan_rectangle"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="440dp"
+        android:layout_height="340dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/whc" />
+
+    <TextView
+        android:id="@+id/sale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPicture"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="-76dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Big Sale"
+        android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/diskon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sale"
+            android:textSize="40sp"
+            android:letterSpacing="0.1"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="-15dp"
+            android:text="15%"
+            android:textColor="#EF6C00"/>
+
+    <TextView
+        android:id="@+id/limited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*Limited time"
+        android:layout_below="@id/diskon"
+        android:paddingLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="-20dp"/>
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/limited"
+        android:background="#43807D7D"/>
+    
+    <TextView
+        android:id="@+id/tvPupuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular"
+        android:layout_marginStart="30dp"
+        android:textSize="24sp"
+        android:textColor="#EF6C00"
+        android:layout_below="@id/garis"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/arival"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:text="New Arivval"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:text="Brand"
+        android:textSize="24sp"
+        android:layout_below="@id/garis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardimage1"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/tvPupuler"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/roman"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardimage2"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@id/cardimage1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/hail"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arival"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/cardimage1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Roman Reigns Poster 1" />
+
+    <TextView
+        android:id="@+id/des2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des"
+        android:layout_centerInParent="true"
+        android:text="Smackdown"/>
+
+    <TextView
+        android:id="@+id/des3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des2"
+        android:layout_centerInParent="true"
+        android:text="$20,23"
+        android:textColor="#EF6C00"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:id="@+id/des2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des3"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_toRightOf="@id/cardimage2"
+        android:fontFamily="@font/poppins_bold"
+        android:text=" Roman Reigns The Tribal Chief" />
+
+
+    <TextView
+        android:id="@+id/des2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des2.1"
+        android:layout_centerInParent="true"
+        android:text="Smackdown"/>
+
+    <TextView
+        android:id="@+id/des3.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/des2.2"
+        android:layout_centerInParent="true"
+        android:text="$30,23"
+        android:textColor="#EF6C00"
+        android:textSize="25sp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

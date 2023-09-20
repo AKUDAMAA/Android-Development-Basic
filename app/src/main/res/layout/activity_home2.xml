@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_screen3"
+    tools:context=".homeActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngopi Yuks"
+
+        android:textStyle="bold"
+        android:textColor="#A8520A"
+        android:textSize="60sp"
+
+        >
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="250dp">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonPindah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            app:icon="@drawable/baseline_arrow_forward_24"
+            android:text="Pindah"
+            android:backgroundTint="#C62828"/>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@drawable/baseline_share_24"
+            android:gravity="center"
+            android:text="Share"
+            android:backgroundTint="#558B2F"/>
+
+
+
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:gravity="center">-->
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/buttonPindah"-->
+<!--            android:layout_marginTop="300dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+
+<!--            android:text="Pindah"-->
+<!--            app:icon="@drawable/baseline_arrow_forward_24"-->
+<!--            android:backgroundTint="@color/black"-->
+<!--            android:layout_gravity="center"-->
+<!--            />-->
+
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:id="@+id/buttonShare"-->
+<!--            app:icon="@drawable/baseline_share_24"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginEnd="25dp"-->
+<!--            android:text="Share"-->
+<!--            android:backgroundTint="#E809C3"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="15dp"/>-->
+
+
+
+<!--    </LinearLayout>-->
+
+
+
+
+
+<!--        />-->
+
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:background="@drawable/wwe_title"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageButton
+
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/namaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WWE Undisputed Champion Title"
+        android:layout_centerVertical="true"
+        android:textSize="23sp"
+        android:layout_marginLeft="17dp"
+        android:layout_below="@id/gambar1"
+        android:fontFamily="@font/poppins_bold"
+
+        />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/baseline_favorite_24"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@id/gambar1"/>
+
+    <TextView
+        android:id="@+id/hargaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaBarang"
+        android:text="$500"
+        android:textColor="#FD7700"
+        android:textSize="32sp"
+        android:layout_marginLeft="20dp"
+
+        />
+    <ImageButton
+        android:id="@+id/star1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/baseline_star_emas"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/hargaBarang"
+        />
+
+    <ImageButton
+        android:id="@+id/star2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/baseline_star_emas"
+        android:layout_below="@id/hargaBarang"
+       android:layout_toRightOf="@id/star1"
+        />
+
+    <ImageButton
+        android:id="@+id/star3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/baseline_star_emas"
+        android:layout_below="@id/hargaBarang"
+        android:layout_toRightOf="@id/star2"
+        />
+
+    <ImageButton
+        android:id="@+id/star4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/baseline_star_emas"
+        android:layout_below="@id/hargaBarang"
+        android:layout_toRightOf="@id/star3"
+        />
+
+    <ImageButton
+        android:id="@+id/star5"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/baseline_star_half_emas"
+        android:layout_below="@id/hargaBarang"
+        android:layout_toRightOf="@id/star4"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/star5"
+        android:layout_below="@id/hargaBarang"
+        android:layout_marginTop="5dp"/>
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="500dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/star1"
+        android:background="#807D7D"/>
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis"
+        android:text="Brand:"
+        android:textSize="20sp"
+        android:layout_marginTop="19dp"
+    android:layout_marginLeft="22sp"
+        />
+
+    <TextView
+        android:id="@+id/tipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brand"
+        android:text="Tipe:"
+        android:textSize="20sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="22sp"
+
+        />
+
+    <TextView
+        android:id="@+id/Dimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipe"
+        android:text="Dimension:"
+        android:textSize="20sp"
+        android:layout_marginTop="19dp"
+        android:layout_marginLeft="22sp"
+        />
+
+    <TextView
+        android:id="@+id/brand2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/brand"
+        android:layout_below="@id/garis"
+        android:text="WWE"
+        android:textSize="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="22dp"
+        />
+
+    <TextView
+        android:id="@+id/tipe2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/brand"
+        android:layout_below="@id/garis"
+        android:text="Replica"
+        android:textSize="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="68dp"
+        />
+
+
+    <TextView
+        android:id="@+id/Dimen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/brand"
+        android:layout_below="@id/garis"
+        android:text="51.5 x 11.5"
+        android:textSize="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:textSize="20dp"
+        android:backgroundTint="#EF6C00"
+        android:layout_below="@id/tipe2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="90dp"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
